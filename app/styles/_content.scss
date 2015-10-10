@@ -1,9 +1,9 @@
 .marketing {
     h4 {
-        color: $brand-warning;
+        color: $brand-warning; 
     }
-    p {
-        color: $brand-primary;
+    a {
+    	color: $brand-danger;
     }
 }
 
@@ -17,3 +17,9 @@
     @include border-top-radius(0px);
     @include border-bottom-radius(50px);
 }
+
+@mixin red {
+  color: red;
+}
+
+.marketing { @include red; }

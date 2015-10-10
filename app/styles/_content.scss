@@ -1,0 +1,19 @@
+.marketing {
+    h4 {
+        color: $brand-warning;
+    }
+    p {
+        color: $brand-primary;
+    }
+}
+
+.jumbotron {
+	h1 {
+		color: $brand-warning;
+	}
+}
+
+.container .jumbotron {
+    @include border-top-radius(0px);
+    @include border-bottom-radius(50px);
+}
